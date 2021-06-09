@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.redux {
+			margin-bottom: 20px;
+		}
+		.container{
+			display: flex;
+			margin-bottom: 20px;
+		}
+		.step {
+			width: 60px;
+			display: flex;
+			justify-content: center;
+			height: 24px;
+			align-items: center;
+		}
+		.book-style {
+			margin-left: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="app">
+		<div class="redux">
+			Document Redux
+		</div>
+		<div class="container">
+			<button class="step" id="increment">+1</button>
+			<span class="step" id="content">0</span>
+			<button class="step" id="decrement">-1</button>
+		</div>
+		<div class="container">
+			<button class="step" id="cart">+1</button>
+			<span class="book-style" id="book">购物车中，当前有0本书</span>
+		</div>
+		<p>测试代码目前出现一个问题，需要使用到namesapce的控制，待验证真实redux.js的情况</p>
+		<p>可参考redux-actions，createAction-handleActions完善代码</p>
+	</div>
+	<!-- <script src="https://cdn.bootcdn.net/ajax/libs/redux/4.0.5/redux.js"></script> -->
+	<script src="./script/index.js" type="module"></script>
+</body>
+</html>

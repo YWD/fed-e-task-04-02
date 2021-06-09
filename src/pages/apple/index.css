@@ -1,0 +1,78 @@
+.apple-component {
+  width: 480px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1.5px solid #999;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.absolute-center {
+  display: flex;
+  justify-content: center;
+}
+
+.absolute-item {
+  flex: 1;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message {
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.apple-center {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.apple-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 12px;
+  align-items: center;
+  border: 2px solid #888;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.left-layout {
+  display: flex;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+:focus {
+  outline: none;
+}
+
+.submit {
+  padding: 12px 40px;
+}
+
+.name-style {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #3497DA;
+  font-weight: 600;
+}
+
+.empty {
+  color: #999;
+}
